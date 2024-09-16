@@ -14,23 +14,24 @@ This project models a simple coffee shop domain using object-oriented programmin
 
 1. Clone the repository:
 
-```bash
+
 git clone git@github.com:Thazar-r/phase-3-code-challenge-week-2-coffee-shop.git
 cd phase-3-code-challenge-week-2-coffee-shop
-```
+
 
 2. Install dependencies:
 
-```bash
+
 pipenv install
-```
+pipenv shell
+
 
 # Running the Application
 
 To run the application, use the following command:
 
 ```bash
-pipenv run python main.py
+pipenv 
 ```
 
 # Running Tests
@@ -38,7 +39,7 @@ pipenv run python main.py
 To run the tests, use the following command:
 
 ```bash
-PYTHONPATH=. pipenv run pytest
+pytest
 ```
 
 # Project Structure
@@ -58,4 +59,4 @@ PYTHONPATH=. pipenv run pytest
 
 # License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the (LICENSE) file for details.
